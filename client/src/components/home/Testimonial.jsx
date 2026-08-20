@@ -6,23 +6,51 @@ function Testimonial() {
     const cardsData = [
         {
             image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200',
-            name: 'Briar Martin',
-            handle: '@neilstellar',
+            name: 'Arjun Mehta',
+            handle: '@arjunmehta_dev',
+            quote: 'Got three interview callbacks within a week of updating my resume with NovaResume. The AI suggestions were spot on.',
+        },
+        {
+            image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200',
+            name: 'Priya Sharma',
+            handle: '@priyasharma_ux',
+            quote: 'I had no idea how to phrase my experience. The AI rewrote my bullet points and they sounded so much more professional.',
         },
         {
             image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200',
-            name: 'Avery Johnson',
-            handle: '@averywrites',
+            name: 'Daniel Osei',
+            handle: '@daniel_builds',
+            quote: 'Clean templates, fast export. I sent my PDF to 10 companies the same day I signed up. Landed a job in 3 weeks.',
         },
         {
             image: 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=200&auto=format&fit=crop&q=60',
-            name: 'Jordan Lee',
-            handle: '@jordantalks',
+            name: 'Lucas Fernández',
+            handle: '@lucasfe_work',
+            quote: 'Finally a resume builder that actually understands tech roles. The skill suggestions saved me so much time.',
         },
         {
             image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=200&auto=format&fit=crop&q=60',
-            name: 'Avery Johnson',
-            handle: '@averywrites',
+            name: 'Sneha Patel',
+            handle: '@snehapatel_hr',
+            quote: 'As an HR professional, I can tell immediately when a resume was built with NovaResume — they always look polished.',
+        },
+        {
+            image: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=200&auto=format&fit=crop&q=60',
+            name: 'James Okoro',
+            handle: '@jamesokoro_',
+            quote: 'Switching careers was scary, but NovaResume helped me frame my transferable skills perfectly. Got hired in a new field!',
+        },
+        {
+            image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&auto=format&fit=crop&q=60',
+            name: 'Aisha Nakamura',
+            handle: '@aisha_designs',
+            quote: 'The dark mode and clean UI made building my resume actually enjoyable. That\'s not something I ever expected to say.',
+        },
+        {
+            image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&auto=format&fit=crop&q=60',
+            name: 'Rohan Gupta',
+            handle: '@rohangu_jobs',
+            quote: 'Used three other resume builders before this. NovaResume is the only one where the AI actually helped instead of confusing me.',
         },
     ];
 
@@ -41,7 +69,7 @@ function Testimonial() {
                     <span className="text-xs text-slate-500">{card.handle}</span>
                 </div>
             </div>
-            <p className="text-sm py-4 text-gray-800 dark:text-slate-300">Radiant made undercutting all of our competitors an absolute breeze.</p>
+            <p className="text-sm py-4 text-gray-800 dark:text-slate-300">{card.quote}</p>
         </div>
     );
 

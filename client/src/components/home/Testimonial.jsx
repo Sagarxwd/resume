@@ -1,4 +1,4 @@
-import { BookUserIcon, Zap } from 'lucide-react'
+import { BookUserIcon } from 'lucide-react'
 import Title from './Title'
 import React from 'react'
 
@@ -76,7 +76,7 @@ function Testimonial() {
 
     return (
         <>
-            <div id='features' className='flex flex-col items-center my-10 scroll-mt-12'>
+            <div id='testimonials' className='flex flex-col items-center my-10 scroll-mt-12'>
                 <div className="flex items-center gap-2 text-sm text-red-800 dark:text-red-400 bg-red-400/10 dark:bg-red-900/40 border dark:border-red-900/50 rounded-full px-6 py-1.5 transition-colors">
                     <BookUserIcon className='size-4.5 stroke-red-600' />
                     <span>Testimonials</span>

@@ -9,13 +9,13 @@ const Features = () => {
         
         <div className="flex items-center gap-2 text-sm text-red-800 dark:text-red-400 bg-red-400/10 dark:bg-red-900/40 border dark:border-red-900/50 rounded-full px-6 py-1.5 transition-colors">
           <Zap width={14}/> 
-            <span>Simple proccess</span>
+            <span>Simple process</span>
         </div>
 
         <Title title='Build your resume' desciption='Discover the powerful features that make our AI Resume Builder your ultimate career companion.' />
 
             <div className="flex flex-col md:flex-row items-center xl:-mt-10">
-                <img className="max-w-2xl w-full xl:-ml-32" src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/features/group-image-1.png" alt="" />
+                <img className="max-w-2xl w-full xl:-ml-32" src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/features/group-image-1.png" alt="Resume builder features overview" />
                 <div className="px-4 md:px-0" onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
                     <div className={"flex items-center justify-center gap-6 max-w-md group cursor-pointer"}>
                         <div className={`p-6 group-hover:bg-violet-100 dark:group-hover:bg-violet-900/40 border border-transparent dark:group-hover:border-violet-700 group-hover:border-violet-300 flex gap-4 rounded-xl transition-all duration-300 group-hover:-translate-y-1 group-hover:shadow-[0_8px_30px_rgb(139,92,246,0.12)] ${!isHover ? 'border-violet-300 dark:border-violet-700 bg-violet-100 dark:bg-violet-900/40 shadow-[0_8px_30px_rgb(139,92,246,0.12)] -translate-y-1' : ''}`}>
